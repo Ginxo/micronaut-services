@@ -1,7 +1,7 @@
 # Creating a service with micronaut
 ## Mongo Reactive service (consul client)
 ```
-mn create-app reactive-mongo-client  -b maven -p service -f swagger-java,mongo-reactive,spock
+mn create-app reactive-mongo-client  -b maven -p service -f swagger-java,mongo-reactive,spock,graal-native-image
 ```
 
 ## Discovery service (consul service)
@@ -26,7 +26,5 @@ Apart from that, I've created a parent project of those ones
         <module>reactive-mongo-client</module>
         <module>consul-service</module>
     </modules>
-
-
 </project>
 ```
