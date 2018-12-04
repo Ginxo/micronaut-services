@@ -1,0 +1,5 @@
+profile: service
+defaultPackage: reactive.mongo.client
+---
+testFramework: spock
+sourceLanguage: java
